@@ -35,9 +35,9 @@ dependencies = [
 
 [project.urls]
 # 上传 GitHub 后填入实际地址
-# Homepage = "https://github.com/你的用户名/AI-Chat"
-# Repository = "https://github.com/你的用户名/AI-Chat"
-# Issues = "https://github.com/你的用户名/AI-Chat/issues"
+# Homepage = "https://github.com/z252517/AI-Chat"
+# Repository = "https://github.com/z252517/AI-Chat"
+# Issues = "https://github.com/z252517/AI-Chat/issues"
 
 [project.optional-dependencies]
 rag = [
