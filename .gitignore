@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# 用户配置（含密钥，不要提交）
+config/user_config.yaml
+ai_chat_cli/config/user_config.yaml
+
+# 运行时生成
+logs/
+chat_history/
+knowledge_base/
+
+# PyInstaller（保留 .spec 打包配置文件，不忽略）
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db

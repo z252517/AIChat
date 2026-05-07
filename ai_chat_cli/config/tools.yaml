@@ -1,0 +1,12 @@
+# ============ 工具配置 ============
+# 配置启用的工具类路径（格式: 模块路径.类名）
+# 新增工具只需添加一行，注释掉即可禁用
+
+tools:
+  - ai_chat_cli.tools.builtin.web_search.WebSearch
+  - ai_chat_cli.tools.builtin.get_current_time.GetCurrentTime
+  - ai_chat_cli.tools.builtin.code_executor.CodeExecutor
+  - ai_chat_cli.tools.builtin.file_rw.FileRead
+  - ai_chat_cli.tools.builtin.file_rw.FileWrite
+  - ai_chat_cli.tools.builtin.knowledge_store.KnowledgeStore
+  - ai_chat_cli.tools.builtin.knowledge_search.KnowledgeSearch
