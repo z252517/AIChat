@@ -16,9 +16,13 @@
 
 ## 快速开始
 
+**环境要求**：Python >= 3.8
+
 ### 安装
 
 ```bash
+git clone https://github.com/z252517/AIChat.git
+cd AIChat
 pip install -e .                        # 基础安装
 pip install -e ".[rag-hybrid]"          # 带 RAG 混合检索支持
 ```
@@ -26,8 +30,9 @@ pip install -e ".[rag-hybrid]"          # 带 RAG 混合检索支持
 ### 启动
 
 ```bash
-ai-chat                                 # 控制台脚本
+ai-chat                                 # 控制台脚本（需先 pip install）
 python -m ai_chat_cli                   # 模块运行
+python ai_chat_cli/main.py              # 直接运行（需先安装依赖）
 ```
 
 首次启动会通过交互式向导引导完成模型选择和 API Key 设置，配置自动保存至 `~/.ai-chat-cli/user_config.yaml`。
