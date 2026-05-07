@@ -5,8 +5,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Build & Run
 
 ```bash
-pip install -e .                        # 开发安装
-pip install -e ".[rag-hybrid]"          # 带 RAG 支持
+pip install -e .                        # 开发安装（含 RAG 密集检索）
+pip install -e ".[rag-hybrid]"          # 额外安装混合检索（BM25 + jieba）
 
 ai-chat                                 # 启动（控制台脚本）
 python -m ai_chat_cli                   # 启动（模块运行）
